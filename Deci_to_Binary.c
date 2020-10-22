@@ -5,6 +5,7 @@ int a[10],n,i;
 system ("cls");  
 printf("Enter the number to convert: ");    
 scanf("%d",&n);    
+// New Comments part
 for(i=0;n>0;i++)    
 {    
 a[i]=n%2;    
