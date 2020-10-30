@@ -17,3 +17,15 @@ if(flag==0)
 printf("Number is prime");     
 return 0;  
  }    
+
+#inlcude<bits/stdc++.h>
+int main(){
+ int n; cin >> n;
+ for(int i=2; i*i <=n; i++){
+  if(n%i==0){
+   cout << "Not a Prime";
+   break;
+  }
+ }
+ cout << "Prime No.";
+}
